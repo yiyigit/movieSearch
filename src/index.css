@@ -1,0 +1,127 @@
+h1 {
+  margin: 0;
+  color:#ff751a;
+}
+.error {
+  color: #9f6000;
+  background-color: #feefb3;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ff751a;
+  text-align: center;
+  transition: all 0.15s;
+}
+.header-btn:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+.header-btn:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.search-panel {
+  border: solid, 2px, #ffddcc;
+}
+
+.top-rated-movies {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.recommendation {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+  border: solid 2px #ffddcc;
+  justify-content: space-around;
+}
+.recommendation li {
+  list-style-type: none;
+}
+
+.highlight-title {
+  font-style: italic;
+  font-weight: lighter;
+}
+.top-movie {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.container {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.flex-box {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-box .title {
+  width: 90%;
+  padding: 10px;
+  background: #ffddcc;
+}
+
+.overview {
+  width: 90%;
+  padding: 10px;
+  background: #ffddcc;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  font-style: normal;
+}
+button {
+  font-style: italic;
+  margin: 10px;
+}
+button:hover {
+  cursor: pointer;
+  font-style: normal;
+}
+.time {
+  font-size: 0.8rem;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.rating {
+  margin: 5px;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
