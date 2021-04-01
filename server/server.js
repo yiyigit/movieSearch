@@ -11,6 +11,8 @@ const {
 
 app.use(cookieParser());
 app.use(express.static("./build"));
+app.use('/movieSearch', express.static("./build"));
+
 
 app.get("/session", (req, res) => {
   const sid = req.cookies.sid;
